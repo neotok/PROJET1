@@ -17,24 +17,16 @@
  * @subpackage Plugin
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
- */ 
-
+ */
 class Ip_Controller_Plugin_RouterSetup extends Ip_Controller_Plugin_Abstract
 {
-    
-   public function routeStartup(Zend_Controller_Request_Abstract $request)
+    public function routeStartup (Zend_Controller_Request_Abstract $request)
     {
-            // Adds routes defined in routes.ini
-            $frontController    = Zend_Controller_Front::getInstance();
-            $router             = $frontController->getRouter();
-            $config             = new Zend_Config_Ini( CONFIG_PATH . DS .  'routes.ini', 'production');
-            $router->addConfig($config, 'routes');
-     
+        // Adds routes defined in routes.ini
+        $frontController = Zend_Controller_Front::getInstance();
+        $router = $frontController->getRouter();
+        $config = new Zend_Config_Ini(CONFIG_PATH . DS . 'routes.ini', 
+        'production');
+        $router->addConfig($config, 'routes');
     }
-    
-    
-    
-    
-   
-    
 }

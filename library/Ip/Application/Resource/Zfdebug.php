@@ -11,18 +11,54 @@
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
  * 
- * @desc   	   ZFdebug Loader as Zend_Application_Resource
  * @category   Ip
  * @package    Ip_Application
- * @subpackage Resource
+ * @subpackage Ip_Application_Resource
+ * @desc	   Zend_Application_Resource_Zfdebug
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ */
+
+
+/**
+ * 
+ * @category   Ip
+ * @package    Ip_Application
+ * @subpackage Ip_Application_Resource
+ * @desc	   Zend_Application_Resource_Zfdebug
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ * @see Zend_Application_Resource_ResourceAbstract
  */
 class Ip_Application_Resource_Zfdebug extends Zend_Application_Resource_ResourceAbstract
 {
+        /**
+     * 
+     * Config options
+     * @var array|Zend_Config
+     * @access protected
+     */
     protected $_localOptions;
+    
+    /**
+     * Zend_View container.
+     * @var Zend_View
+     * @access protected
+     */
     protected $_view;
  
+      /* *
+     * 
+     * Class pseudo contructor
+     * @see Zend_Application_Resource_Resource::init()
+     * @return Zend_View
+     */
     public function init()
     {
 	

@@ -12,17 +12,33 @@
  * to license@zend.com so we can send you a copy immediately.
  * 
  * @category   Ip
+ * @package    Ip_Form
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ */
+
+
+/**
+ * 
+ * @category   Ip
+ * @package    Ip_Form
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ * @see Zend_Form
  */
 
 class Ip_Form extends Zend_Form
 {
     /**
     * Constructor
-    *
     * @param  mixed $options
-    * @return void
+    * @return null
     */
     public function __construct($options = null)
     {
@@ -32,8 +48,7 @@ class Ip_Form extends Zend_Form
     
     /**
     * Zend_Config object accessor
-    *
-    * @return Zend_Config
+    * @return Zend_Config|null
     */
     protected function _getConfig()
     {

@@ -12,12 +12,29 @@
  * to license@zend.com so we can send you a copy immediately.
  * 
  * @category   Ip
- * @package    View
- * @subpackage Helper
+ * @package    Ip_View
+ * @subpackage Ip_View_Helper
+ * @desc	   Ip_View_Helper_DisplayMessages
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
  */
 
+
+/**
+ * 
+ * @category   Ip
+ * @package    Ip_View
+ * @subpackage Ip_View_Helper
+ * @desc	   Ip_View_Helper_DisplayMessages
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ */
 class Ip_View_Helper_DisplayMessages extends Zend_View_Helper_Abstract
 {
 
@@ -27,9 +44,8 @@ class Ip_View_Helper_DisplayMessages extends Zend_View_Helper_Abstract
      */
     protected $_sessionNamespace = 'Ip_System_Messages';
     
-  /**
+   /**
      * displayMessages
-     *
      * @return string
      */
     function displayMessages()

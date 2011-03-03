@@ -129,3 +129,4 @@ Zend_View_Helper_: Zend/View/Helper/
 2011-03-03T09:41:54+01:00 ALERT (1): SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 113
 2011-03-03T09:42:18+01:00 ALERT (1): SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 113
 2011-03-03T10:20:30+01:00 ALERT (1): Undefined index: login
+2011-03-03T12:05:07+01:00 ALERT (1): Invalid controller specified (build-logs)

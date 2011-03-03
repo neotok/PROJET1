@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  *
  * LICENSE
@@ -13,8 +13,25 @@
  * 
  * @category   Ip
  * @package    Ip_Controller
+ * @subpackage Ip_Controller_Action
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ */
+
+
+/**
+ * 
+ * @category   Ip
+ * @package    Ip_Controller
+ * @subpackage Ip_Controller_Action
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
  */
 
 class Ip_Controller_Action extends Zend_Controller_Action

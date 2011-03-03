@@ -10,18 +10,33 @@
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
  * to license@zend.com so we can send you a copy immediately.
- *
+ * 
  * @category   Ip
+ * @package    Ip_Log
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
  */
 
+
+/**
+ * 
+ * @category   Ip
+ * @package    Ip_Log
+ * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @version    1.0 2010-10-10
+ * @author	   Dev 17 <dev@ip-formation.com>
+ * @copyright  Copyright (c) 2011 DEV 17 
+ * @version	   Release : 1.0.1 (2011-02-28)
+ * @see Zend_Log
+ */
 class Ip_Log extends Zend_Log
 {
 
     /**
      * Log a message at a priority
-     *
      * @param  string   $message   Message to log
      * @param  integer  $priority  Priority of message
      * @param  integer  $writerId  Specific writer id as defined in config
@@ -91,7 +106,6 @@ class Ip_Log extends Zend_Log
 /**
      * Factory to construct the logger and one or more writers
      * based on the configuration array
-     *
      * @param  array|Zend_Config Array or instance of Zend_Config
      * @return Zend_Log
      */
