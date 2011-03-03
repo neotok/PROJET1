@@ -1,0 +1,26 @@
+<phpunit bootstrap="./phpunitBootstrap.php">
+    <testsuite name="Projet1 Test Suite">
+        <directory>./</directory>
+    </testsuite>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../library/</directory>
+            <directory suffix=".php">../application/</directory>
+            <exclude>
+                <directory suffix=".phtml">../application/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+
+    <logging>
+        <log type="coverage-html" target="../public/build-logs/coverage.html" charset="UTF-8"
+            yui="true" highlight="true"
+            lowUpperBound="50" highLowerBound="80"/>
+        <log type="testdox-html" target="../public/build-logs/testdox.html" />
+        <log type="junit" target="../public/build-logs/junit.xml" />
+        <log type="tap" target="../public/build-logs/tap.txt" />
+        <log type="json" target="../public/build-logs/json.js" />
+    </logging>
+</phpunit>
