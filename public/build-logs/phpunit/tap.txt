@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 - IndexControllerTest::testIndexPageShouldFullFromRightMCA
+ok 2 - IndexControllerTest::testIndexTitle
+ok 3 - User_IndexControllerTest::testValidCredentialsShouldResultInRedisplayOfLoginForm
+1..3
