@@ -38,10 +38,4 @@ class IndexControllerTest extends Zend_Test_PHPUnit_ControllerTestCase
         $this->assertController('index');
         $this->assertAction('index');
     }
-    
-    public function testIndexTitle()
-    {
-        $this->dispatch('/');
-        $this->assertQueryContentContains('h3', 'Install de base ZF');
-    }
 }

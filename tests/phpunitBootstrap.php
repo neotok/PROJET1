@@ -1,7 +1,7 @@
 <?php
 
-$_SERVER['REQUEST_URI'] = 'racine';
-$_SERVER['HTTP_HOST'] = 'projet1.ip-formation.local';
+$_SERVER['REQUEST_URI'] = '/';
+$_SERVER['HTTP_HOST'] = 'yapuca.ip-formation.local';
 $_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 
 
